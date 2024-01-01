@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  </head>
+  <body>
+
+    <!-- nav bar -->
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="addRemove.html">Add/Remove</a>
+      <a href="upload.html">Upload sdf</a>
+      <a href="molSelect.html">Select Form List</a>
+    </div>
+     
+    <!-- For adding Elements -->
+    <div class= "add-element">
+      <h2>Add Element</h2>
+      <form>
+        <label for="Enum">Element Number:</label>
+        <input type="text" id="Enum" name="Enum"><br>
+
+        <label for="Ecode">Element Code:</label>
+        <input type="text" id="Ecode" name="Ecode"><br>
+
+        <label for="Ename">Element Name:</label>
+        <input type="text" id="Ename" name="Ename"><br>
+
+        <label for="Ecolour1">Colour 1:</label>
+        <input type="color" id="Ecolour1" name="Ecolour1"><br>
+
+        <label for="Ecolour2">Colour 2:</label>
+        <input type="color" id="Ecolour2" name="Ecolour2"><br>
+
+        <label for="Ecolour3">Colour 3:</label>
+        <input type="color" id="Ecolour3" name="Ecolour3"><br>
+
+        <label for="radius">Radius:</label>
+        <input type="radius" id="radius" name="radius"><br>
+
+        <button class="btn-thing" id="ElementAddbtn">Add Element</button>
+      </form> 
+    </div>
+    
+    <!-- for deleting elements -->
+    <div class="delete-element">
+      <h2>Remove Element</h2>
+      <form>
+        <label for="Ename">Element Code:</label>
+        <input type="text" id="rmv-ele" name="Ename"><br>
+
+        <button class="btn-thing" id="ElementDeletebtn">Delete Element</button>
+      </form>
+    </div>
+
+    <!-- Footer/last section -->
+    <div class='foot-class'>
+      <h4>created by shrina</h4>
+    </div>
+  </body>
+</html>
